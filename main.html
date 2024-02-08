@@ -1,90 +1,94 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html>
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<title>HTML Assignment 3</title>
+	<tltle>HTML Assignment 3</tltle>
+	<style>
+		td{
+			padding: 1px;
+            border: 1px solid black;
+		}
+	</style>
 </head>
+
 <body>
-	<!-- the entire body must be written by student -->
-	<h1 style="text-align:center">HTML Assignment #3</h1>
-	<table class="middle" border="1" id="table-1" style="width: 100%; height: 30%">
-	<tr>
-		<td id="t11">left</td>
-		<td id="t12" class="center">center</td>
-		<td class="right" id="t13">right</td>
-	</tr>
-		<tr class="center">
-		<td>left</td>
-		<td>center</td>
-		<td class="right">right</td>
-	</tr>
-		<tr>
-		<td>left</td>
-		<td>center</td>
-		<td class="right">right</td>
-	</tr>
-	</table><br>
-	<br>
-	<table id="table-2" border="1" style="width: 100%; height: 100%" class="middle">
-		<tr>
-			<td colspan="6" id="t21">1</td>
+	
+	<table id="table-1" class="middle" width="560px">
+		<caption><h3>HTML Assignment# 3</h1></caption>
+		<tr id="t11">
+			<td>left</td>
+			<td class="center" style="text-align: center;">Center</td>
+			<td class="right" style="text-align: right;">Right</td>
 		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+		<tr >
+			<td>left</td>
+			<td id="t12" class="center" style="text-align: center;">Center</td>
+			<td class="right" style="text-align: right;">Right</td>
 		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+		<tr >
+			<td>left</td>
+			<td class="center" style="text-align: center;">Center</td>
+			<td id="t13" class="right" style="text-align: right;">Right</td>
 		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+	</table>
+	<br><br>
+	<table id="table-2" class="middle" width="560px">
+		<tr  height="21px">
+      <td id="t21" colspan="6"></td>
+    </tr>
+		<tr height="21px">
+			<td rowspan="4"></td>
+			<td ></td>
+			<td ></td>
+			<td ></td>
+			<td ></td>
+			<td ></td>
 		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+		<tr height="21px">
+			<td></td>
+			<td colspan="3" rowspan="2"></td>
+			<td></td>	
 		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+		<tr height="21px">
+			<td></td>
+			<td ></td>
 		</tr>
-		</table><br><br>
-	<table id="table-3" border="1" cellspacing="1" cellpadding="1" class="middle">
-		<tr bgcolor="green">
-			<td></td></tr>
-			<tr>
-				<td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg">
-	</td></tr>
-		<tr bgcolor="blue">
+		<tr height="21px">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td></td>
 		</tr>
-		
+		<tr height="21px">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
 	</table>
-	
-    <script type="text/javascript" src="./script.js">
+	<br><br>
+	<table id="table-3" class="middle" width="560px" >
+		<tr>
+    <td style="height: 21px; background-color: green;"></td>
+		</tr>
+		<tr>
+			 <td style="height: 150px; text-align: center;" id="t-image">
+      <img src="https://media.istockphoto.com/id/470728334/photo/soccer-player-kicking-ball-in-stadium.webp?b=1&s=170667a&w=0&k=20&c=K6u4UXm29NW1CMKS6DYLrWjH1dmIR9MK8R-WMMvEScE=" 
+           width="35%" 
+           height="100%" >
+    </td>
+		</tr>
+		<tr>
+    <td style="height: 21px; background-color: blue;"></td>
+		</tr>
+	</table>
+	<!-- the entire body must be written by student -->
+     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
